@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Цифровой паспорт объекта ГРС</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Цифровой паспорт объекта: ГРС №21</h1>
+    </header>
+
+    <section id="general-info">
+        <h2>Основные сведения</h2>
+        <p><strong>Название объекта:</strong> Газораспределительная станция №21</p>
+        <p><strong>Местоположение:</strong> Область, район, координаты</p>
+        <p><strong>Дата ввода в эксплуатацию:</strong> 15 мая 2015 года</p>
+        <p><strong>Проектная мощность:</strong> 10 000 куб. м/час</p>
+    </section>
+
+    <section id="technical-specs">
+        <h2>Технические характеристики</h2>
+        <table>
+            <tr>
+                <th>Параметр</th>
+                <th>Значение</th>
+            </tr>
+            <tr>
+                <td>Рабочее давление на входе</td>
+                <td>5 МПа</td>
+            </tr>
+            <tr>
+                <td>Рабочее давление на выходе</td>
+                <td>0.4 МПа</td>
+            </tr>
+            <tr>
+                <td>Производительность</td>
+                <td>2000 куб. м/час</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="documentation">
+        <h2>Документация</h2>
+        <ul>
+            <li><a href="docs/project-documentation.pdf" target="_blank">Проектная документация</a></li>
+            <li><a href="docs/scheme.png" target="_blank">Схема газопровода</a></li>
+        </ul>
+    </section>
+
+    <section id="maintenance-history">
+        <h2>История обслуживания</h2>
+        <ul>
+            <li>Очистка фильтров: 10 июля 2023 года</li>
+            <li>Калибровка регуляторов давления: 01 января 2024 года</li>
+        </ul>
+    </section>
+
+    <section id="upcoming-maintenance">
+        <h2>Плановые работы</h2>
+        <p>Дата следующего технического обслуживания: 1 ноября 2024 года</p>
+        <p>Необходимые работы: Проверка противоаварийной системы</p>
+    </section>
+
+    <section id="real-time-data">
+        <h2>Оперативные данные</h2>
+        <p><strong>Текущие параметры работы:</strong></p>
+        <p>Входное давление: <span id="input-pressure">4.9 МПа</span></p>
+        <p>Выходное давление: <span id="output-pressure">0.38 МПа</span></p>
+        <p>Поток газа: <span id="gas-flow">1800 куб. м/час</span></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Газораспределительная станция №21</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
